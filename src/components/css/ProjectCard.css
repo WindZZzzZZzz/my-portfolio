@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+.card-title {
+  color: var(--titleColor);
+  font-size: 1.375rem;
+  line-height: 24px;
+  font-weight: 700;
+  margin: 15px 0 0 0;
+}
+.card-subtitle {
+  color: var(--cardSubtitle);
+  font-size: 1.063rem;
+  line-height: 1.5rem;
+}
+.project-items-div {
+  margin-top: 2rem;
+  text-align: left;
+}
+.project-card {
+  background-color: var(--lightBackground2);
+  box-shadow: var(--lightBoxShadowDark) 0px 10px 30px -15px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid var(--lightBorder1);
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  flex: 0 0 auto;
+  width: 500px;
+}
+.project-detail-div {
+  text-align: center;
+}
+.project-card:hover {
+  box-shadow: var(--lightBoxShadowDark) 0px 20px 30px -10px;
+}
+.dark-mode.project-card:hover {
+  box-shadow: var(--projectCertificateCardHoverDark) 0px 20px 30px -10px;
+}
+.project-cards-div {
+  width: 100%;
+}

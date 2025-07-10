@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+/* === Layout === */
+.interest-main-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow: hidden;
+}
+
+.interest-main-div > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+/* === Headings and Text === */
+.interest-heading {
+  font-size: 56px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.subTitle {
+  color: var(--subTitle);
+}
+
+.interest-text-subtitle {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.interest-bubbles-canvas {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  margin-top: 40px;
+  overflow: hidden;
+  border: 1px solid var(--lightBorder1);
+}
+
+.interest-bubble {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  user-select: none;
+  transition: transform 0.3s ease;
+  width: 150px;
+  height: 150px;
+  background-image: url("../../assets/images/cloud.svg")
+}
+
+.interest-bubble-dark {
+  background-color: var(--dark-background);
+  background-blend-mode: multiply;
+}
+
+.interest-bubble:hover {
+  transform: scale(1.1);
+}
+
+.interest-bubble-text {
+  /* z-index: 1; */
+  padding: 0 4px;
+}
+
+
+/* === Responsive === */
+@media (max-width: 1380px) {
+  .interest-heading {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .interest-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .greeting-text-p {
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .interest-main-div {
+    flex-direction: column;
+  }
+
+  .interest-text-div {
+    margin-left: 0;
+    margin: 20px;
+  }
+
+  .interest-text {
+    font-size: 16px;
+  }
+
+  .interest-text-subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .interest-bubbles-canvas {
+    height: 500px;
+  }
+
+  .interest-bubble {
+    font-size: 8px;
+    width: 70px;
+    height: 70px;
+  }
+}
+
