@@ -34,6 +34,9 @@ function Header() {
             <a href="#experience">Work Experiences</a>
           </li>
           <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
             <a href="#interest">Interests</a>
           </li>
           <li>
