@@ -177,64 +177,79 @@ const projectSection = {
     {
       projectName: "Online Advertising Platform",
       description: [
-        "⚡ Built a high-performance advertising Demand-Side Platform (DSP) delivering over 100 million ads daily and generating up to $200,000 in revenue per day.",
+        "⚡ Built a high-performance Demand-Side Platform (DSP) delivering over 100 million ads daily and generating up to $200,000 in revenue per day.",
         "⚡ Developed a CRM system for advertisers to create campaigns and visualize business data effectively.",
         "⚡ Optimized platform performance to scale with rapidly growing web traffic.",
-        "⚡ Improved conversion rates by integrating machine learning techniques.",],
+        "⚡ Increased conversion rates by integrating machine learning techniques.",
+      ],
       link: "https://www.233leyuan.com/",
+      tags: [
+        "ASP.NET", "React.js", "Cloud Computing", "Kubernetes", "Python", "Java",
+        "Thrift", "Databases", "Machine Learning", "Recommender System", "Big Data", "Jenkins", "GitLab"
+      ],
     },
     {
       projectName: "Data Management System",
       description: [
         "⚡ Built a data management platform to deliver detailed business insights for Kuaigou Logistics.",
-        "⚡ Engineered scalable data processing and querying capabilities using databases, Hive, Spark, and Kafka",
-        "⚡ Implemented engaging visualizations using pie charts, line charts, and data tables."
+        "⚡ Engineered scalable data processing and querying capabilities using databases, Hive, Spark, and Kafka.",
+        "⚡ Implemented engaging visualizations using pie charts, line charts, and data tables.",
       ],
       link: "https://suyun.daojia.com/#/",
+      tags: [
+        "ASP.NET", "React.js", "Cloud Computing", "Python", "Java",
+        "RPC", "Microservices", "Big Data", "Jenkins", "GitLab"
+      ],
     },
     {
       projectName: "GenZ Aotearoa Website",
       description: [
-        "⚡ Maintained and updated the website using Squarespace and React.js",
-        "⚡ Collected data using Airtable and created visualizations for analysis and reporting",
+        "⚡ Maintained and updated the website using Squarespace and React.js.",
+        "⚡ Collected data using Airtable and created visualizations for analysis and reporting.",
       ],
       link: "https://www.genzaotearoa.org/",
+      tags: ["React.js", "Squarespace", "CMS", "Airtable"],
     },
     {
       projectName: "MCP Outlook Tool",
       description: [
-        "⚡ Built MCP client and server for Microsoft Outlook Email",
-        "⚡ Allow users to operate their email account through nature language, thereby enhancing their work efficiency",
+        "⚡ Built an MCP client and server for Microsoft Outlook.",
+        "⚡ Enabled users to interact with their email accounts using natural language, enhancing work efficiency.",
       ],
-      link: "dd",
+      link: "https://github.com/WindZZzzZZzz/mcp-outlook-tool",
+      tags: ["Python", "Model Context Protocol", "Azure Graph API", "FastAPI"],
     },
     {
       projectName: "Tiaki Taonga Website",
       description: [
-        "⚡ Maintained website using WordPress",
-        "⚡ Collected and processed business information across New Zealand",
-        "⚡ Integrated Chatbot and Invoice Scanner using Microsoft Azure AI Service",
+        "⚡ Maintained the website using WordPress.",
+        "⚡ Collected and processed business information across New Zealand.",
+        "⚡ Integrated a chatbot and invoice scanner using Microsoft Azure AI Service.",
       ],
       link: "https://www.tiakitaonga.com/",
+      tags: ["WordPress", "Azure AI Service", "Database", "LLMs"],
     },
     {
       projectName: "KHC Community Website",
       description: [
-        "⚡ KHC community is an open source community with 1k members",
-        "⚡ Maintained the website using HTML, JS, CSS, and Github Action",
+        "⚡ Open-source community website with over 1,000 members.",
+        "⚡ Maintained the website using HTML, JavaScript, CSS, and GitHub Actions.",
       ],
       link: "https://krypto-hashers-community.github.io/Khc-Official/",
+      tags: ["HTML", "CSS", "JavaScript", "GitHub Actions", "GitHub"],
     },
     {
       projectName: "ChatGPT TOC Extension",
       description: [
-        "⚡ Developed and publish the Chrome Extension",
-        "⚡ Generated a table of content for ChatGPT conversions to improve retrieval efficiency",
+        "⚡ Developed and published a Chrome extension.",
+        "⚡ Generated a table of contents for ChatGPT conversations to improve content retrieval.",
       ],
       link: "https://chromewebstore.google.com/detail/jjpmfdjghngpncajeffgdpfcedlpkdmg?utm_source=portfolio",
+      tags: ["Chrome Extension", "HTML", "JavaScript", "Azure Static Web Apps", "GitHub Actions"],
     },
   ]
 };
+
 
 // Education Section
 const educationInfo = {
@@ -388,3 +403,4 @@ export {
   isHireable,
   interestInfo
 };
+

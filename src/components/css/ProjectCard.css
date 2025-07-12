@@ -41,3 +41,31 @@
 .project-cards-div {
   width: 100%;
 }
+
+.project-card-footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+.project-card-footer span.project-tag {
+  background: var(--buttonColor);
+  color: var(--lightBackground3);
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 2em;
+  justify-content: center;
+  white-space: nowrap;
+  line-height: 1.5;
+  margin: 0 0.5rem 0.5rem 0;
+  padding: 0 0.75em;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+span.project-tag:hover {
+  background: var(--buttonHover);
+}

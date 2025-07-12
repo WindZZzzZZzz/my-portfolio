@@ -54,6 +54,7 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 10px;
 }
 .certificate-card-footer span.certificate-tag {
   background: var(--buttonColor);

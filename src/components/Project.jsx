@@ -89,6 +89,7 @@ export default function Project() {
                     projectName: card.projectName,
                     description: card.description,
                     link: card.link,
+                    tags: card.tags,
                   }}
                 />
               ))}

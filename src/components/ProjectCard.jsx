@@ -26,21 +26,20 @@ export default function ProjectCard({cardInfo, isDark}) {
           })}
         </div>
       </div>
-      {/* <div className="certificate-card-footer">
-        {cardInfo.footer.map((v, i) => {
+      <div className="project-card-footer">
+        {cardInfo.tags.map((v, i) => {
           return (
             <span
               key={i}
               className={
-                isDark ? "dark-mode certificate-tag" : "certificate-tag"
+                isDark ? "dark-mode project-tag" : "project-tag"
               }
-              onClick={() => openUrlInNewTab(v.url, v.name)}
             >
-              {v.name}
+              {v}
             </span>
           );
         })}
-      </div> */}
+      </div>
     </div>
   );
 }
