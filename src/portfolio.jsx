@@ -120,53 +120,63 @@ const interestInfo = {
     {
       name: "Web Development",
       weight: "",
-      link: ""
+      link: "https://www.reddit.com/r/webdev/"
     },
     {
       name: "Vibe Coding",
       weight: "",
-      link: ""
+      link: "https://cursor.com/"
     },
     {
       name: "Saas",
       weight: "",
-      link: ""
+      link: "https://www.reddit.com/r/SaaS/"
     },
     {
       name: "n8n",
       weight: "",
-      link: ""
+      link: "https://n8n.io/"
     },
     {
       name: "Prompt Engineering",
       weight: "",
-      link: ""
+      link: "https://github.com/f/awesome-chatgpt-prompts"
     },
     {
       name: "Generative AI",
       weight: "",
-      link: ""
+      link: "https://openai.com/index/chatgpt/"
     },
     {
       name: "Large Language Models",
       weight: "",
-      link: ""
+      link: "https://huggingface.co/models?other=LLM"
     },
     {
       name: "Web Scraping",
       weight: "",
-      link: ""
+      link: "https://www.scrapy.org/"
     },
     {
       name: "Open Source",
       weight: "",
-      link: ""
+      link: "https://github.com/"
     },
     {
       name: "MCP",
       weight: "",
-      link: ""
+      link: "https://github.com/modelcontextprotocol/modelcontextprotocol"
     },
+    {
+      name: "RAG",
+      weight: "",
+      link: "https://python.langchain.com/docs/tutorials/rag/"
+    },
+    {
+      name: "LangChain",
+      weight: "",
+      link: "https://python.langchain.com/docs/introduction/",
+    }
   ]
 }
 
