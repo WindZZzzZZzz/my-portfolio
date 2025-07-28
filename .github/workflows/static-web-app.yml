@@ -27,13 +27,13 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist  # This must match your output folder
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # ✅ Required for authentication
+          publish_dir: ./dist                        # ✅ Adjust if build output is different
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
-    name: No-op for PR Close (No Azure action)
+    name: No-op for PR Close
     steps:
       - name: Skip step
         run: echo "No deployment needed for PR close"
